@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{}",
+ "creation": "2024-09-25 12:32:23.340973",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "schedule",
+  "stream_date",
+  "column_break_lizs",
+  "stream_link",
+  "stream_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "Heading",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "stream_date",
+   "fieldtype": "Date",
+   "label": "Stream Date"
+  },
+  {
+   "fieldname": "column_break_lizs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stream_link",
+   "fieldtype": "Data",
+   "label": "Stream Link"
+  },
+  {
+   "fieldname": "stream_time",
+   "fieldtype": "Time",
+   "label": "Stream Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-25 12:36:26.306768",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "BWH Stream",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
