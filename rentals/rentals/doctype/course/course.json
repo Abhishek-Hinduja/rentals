@@ -1,11 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{course_name}",
  "creation": "2024-09-25 15:14:11.805321",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "course_name",
+  "academic_year",
+  "topics",
+  "column_break_ztlw",
   "course_code",
   "credits"
  ],
@@ -24,14 +28,31 @@
    "fieldname": "credits",
    "fieldtype": "Float",
    "label": "Credits"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "label": "Academic Year",
+   "options": "Student1"
+  },
+  {
+   "fieldname": "column_break_ztlw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "topics",
+   "fieldtype": "Table",
+   "label": "Topics",
+   "options": "Topics"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 15:22:22.199647",
+ "modified": "2024-09-26 12:54:29.187846",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Course",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
